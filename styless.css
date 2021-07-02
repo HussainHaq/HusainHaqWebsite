@@ -8,7 +8,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: #17172c;
+    background: #0d0d18;
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -205,6 +205,15 @@ body{
     }
 }
 
+/*About me section the main part of the website essentially*/
+.top__header{
+    position: relative;
+    z-index: 100;
+    top: 25px;
+    left: 45px;
+    font-size: 1.5rem;
+    color: #fff;
+}
 .main__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -214,7 +223,7 @@ body{
     height: 75vh;
     width: 100%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 0 20px;
 }
 
 .main__content{
@@ -227,21 +236,184 @@ body{
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    max-width: 1300pxS;
+    max-width: 1300px;
+    min-width: 500px;
+    max-height: 1000px;
+}
+.main__img--container{
+    position: relative;
+    background: #0c0c0e;
+    width: 89%;
+    height: 80%;
+    text-align: center;
+    min-width: 500px;
+}
+.main__img--container h1{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    opacity: 100%;
+    top: 550px;
+    left: 120px;
+    font-size: 45px;
 }
 
+.main__img--container h2{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    opacity: 100%;
+    top: 600px;
+    left: 150px;
+    font-size: 25px;
+    background-color: #ff5e00;
+    background-image: linear-gradient(to bottom, #e4fd00 0%, #ff0000 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
 
+#main__img{
+    position: relative;
+    bottom: -40px;
+    right: -5px;
+}
 
 .main__content h1{
+    padding-top: 0px;
     display: flex;
     font-size: 35px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 
 .main__content p{
     color: #fff;
     letter-spacing: 2px;
     text-indent: 40px;
-    line-height: 25px;
+    line-height: 30px;
     font-size: 20px;
+}
+
+/*Social media buttons */
+.social__header{
+    padding-top: 35px;
+    font-size: 35px; 
+}
+
+.social__btn{
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+.link__btn{
+    position: relative;
+    top: 25px;
+}
+
+.insta__btn{
+    position: relative;
+    top: 25px;
+    border: none;
+    background: none;
+    margin-left: 3rem;
+}
+
+/*Education section of the website*/
+
+.edu__title h2{
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    background-color: #ff5e00;
+    background-image: linear-gradient(to bottom, #e4fd00 0%, #ff0000 100%);
+    background-size: 100%;
+    padding: 0 50px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    max-width: 1400px;
+}
+
+.main__edu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 45vh;
+    width: 95%;
+    max-width: 1300px;
+    padding: 0 50px;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    background: #0c0c2b;
+    padding-bottom: 150px;
+    max-width: 1300px;
+}
+
+/*Barrignton Highschool Info*/
+.barring__high h4{
+    height: 2vh;
+    color: #fff;
+}
+#Bar__img{
+    position: relative;
+    bottom: -50px;
+    right: -100px;
+}
+
+.barring__high h5{
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    top: 80px;
+    right: -40px;
+}
+
+/*Harper college education design*/
+.Harper__college h4{
+    position: relative;
+    height: 9vh;
+    right: -50px;
+    color: #fff;
+}
+
+#Harper__img{
+    position: relative;
+    left: 40px;
+}
+
+.Harper__college h5{
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    top: 80px;
+    right: -50px;
+}
+
+/*NIU header and career*/
+.NIU h4{
+    height: vh;
+    color: #fff;
+}
+
+#NIU__img{
+    position: relative;
+    top: 25px;
+    left: 75px;
+} 
+
+.NIU h5{
+    color: #fff;
+    position: relative;
+    font-size: 25px;
+    top: 80px;
+    left: 35px;
 }
